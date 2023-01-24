@@ -40,10 +40,7 @@ $ go get -u golang.org/x/tools/cmd/goimports
 Then, install in the usual Go way:
 
 ```sh
-$ go get -u github.com/xo/xo
-
-# install with oracle support (see notes below)
-$ go get -tags oracle -u github.com/xo/xo
+$ go build -o $GOPATH/bin/xo_v1
 ```
 
 **_NOTE:_** Go 1.6+ is needed for installing `xo` from source, as it makes use
