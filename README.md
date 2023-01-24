@@ -40,7 +40,7 @@ $ go get -u golang.org/x/tools/cmd/goimports
 Then, install in the usual Go way:
 
 ```sh
-$ go build -o $GOPATH/bin/xo_v1
+$ go build -o $GOPATH/bin/xo_v0
 ```
 
 **_NOTE:_** Go 1.6+ is needed for installing `xo` from source, as it makes use
